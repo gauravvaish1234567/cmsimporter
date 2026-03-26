@@ -1,0 +1,17 @@
+{
+    "name": "pinpoint/cmsimporter",
+    "description": "Adds bin/magento command to import cms blocks/pages from default or given theme ID",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.2.4",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pinpoint\\CmsImporter\\": ""
+        }
+    }
+}
